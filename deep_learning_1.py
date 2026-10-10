@@ -35,3 +35,8 @@ print(model.predict(np.array([22])))
 print(model.predict(np.array([8.5])))
 print(model.predict(np.array([4.432])))
 print(model.predict(np.array([11.9])))
+
+test_array = np.array([10.09,23.43,6.76,43.4])
+
+for i in range(0,len(test_array)):
+    print(model.predict(np.array([test_array[i]])))
